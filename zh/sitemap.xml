@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://pandax.me/zh/categories/</loc>
+    <lastmod>2021-08-31T13:57:04-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,6 +16,7 @@
                 />
   </url><url>
     <loc>https://pandax.me/zh/</loc>
+    <lastmod>2021-08-31T13:57:04-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -26,7 +28,21 @@
                 href="https://pandax.me/zh/"
                 />
   </url><url>
+    <loc>https://pandax.me/zh/posts/</loc>
+    <lastmod>2021-08-31T13:57:04-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pandax.me/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pandax.me/zh/posts/"
+                />
+  </url><url>
     <loc>https://pandax.me/zh/tags/</loc>
+    <lastmod>2021-08-31T13:57:04-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -37,5 +53,14 @@
                 hreflang="zh"
                 href="https://pandax.me/zh/tags/"
                 />
+  </url><url>
+    <loc>https://pandax.me/zh/posts/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2021-08-31T13:57:04-05:00</lastmod>
+  </url><url>
+    <loc>https://pandax.me/zh/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2021-08-31T13:57:04-05:00</lastmod>
+  </url><url>
+    <loc>https://pandax.me/zh/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2021-08-31T13:57:04-05:00</lastmod>
   </url>
 </urlset>
