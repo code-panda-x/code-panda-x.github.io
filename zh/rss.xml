@@ -8,11 +8,11 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>PandaX</title>
-        <link>https://pandax.me/</link>
-        <description>Blog of reuixiy in English.</description>
+        <link>https://pandax.me/zh/</link>
+        <description>这是 reuixiy 的生活与技术博客！怎么记住 reuixiy 呢？其实就是「一休儿」的拼音，只不过顺序是从右往左……</description>
         <generator>Hugo 0.83.1 https://gohugo.io/</generator>
         
-            <language>en-US</language>
+            <language>zh-CN</language>
         
         
             <managingEditor>reuixiy@gmail.com (reuixiy)</managingEditor>
@@ -21,11 +21,11 @@
             <webMaster>reuixiy@gmail.com (reuixiy)</webMaster>
         
         
-            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+            <copyright>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</copyright>
         
         <lastBuildDate>Tue, 31 Aug 2021 13:33:49 -0500</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://pandax.me/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://pandax.me/zh/rss.xml" />
         
         
     </channel>
