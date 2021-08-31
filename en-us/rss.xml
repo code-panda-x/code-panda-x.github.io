@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>微动态</title>
+        <link>https://code-panda-x.github.io/en-us/</link>
+        <description>Blog of ztygcs in English.</description>
+        <generator>Hugo 0.83.1 https://gohugo.io/</generator>
+        
+            <language>en-US</language>
+        
+        
+            <managingEditor>zccon1996@163.com (天涯共此时)</managingEditor>
+        
+        
+            <webMaster>zccon1996@163.com (天涯共此时)</webMaster>
+        
+        
+        <lastBuildDate>Tue, 31 Aug 2021 12:50:27 -0500</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://code-panda-x.github.io/en-us/rss.xml" />
+        
+        
+    </channel>
+</rss>
