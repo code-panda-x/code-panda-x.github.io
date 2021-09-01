@@ -12,7 +12,7 @@
     
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>PandaX</title>
+    <title>Coding Basics | PandaX</title>
 
     <link rel="stylesheet" href="/css/meme.min.css" />
 
@@ -27,7 +27,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="reuixiy" /><meta name="description" content="Blog of reuixiy in English." />
+    <meta name="author" content="reuixiy" /><meta name="description" content="Difference between: i&#43;&#43; and &#43;&#43;i i&#43;&#43; --&gt; Assign --&gt; Increment &#43;&#43;i --&gt; Increment --&gt; Assign  What is dynamically allocation? Defnition: The mechanism by which storage/memory/cells can be allocated to variables during the run time is called Dynamic Memory Allocation
+Static vs Dynamic Array: Basically static array has fixed size but dyanmic arr size can vary" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
@@ -37,39 +38,42 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="application-name" content="PandaX" />
-    <meta name="msapplication-starturl" content="" />
+    <meta name="msapplication-starturl" content="../../" />
     <meta name="msapplication-TileColor" content="#fff" />
-    <meta name="msapplication-TileImage" content="icons/mstile-150x150.png" />
+    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
     <link rel="manifest" href="/manifest.json" />
 
     
-    <link rel="alternate" type="application/atom&#43;xml" href="https://pandax.me/atom.xml" title="PandaX" />
-    <link rel="alternate" type="application/rss&#43;xml" href="https://pandax.me/rss.xml" title="PandaX" />
     
 
     
-    <link rel="canonical" href="https://pandax.me/" />
+    <link rel="canonical" href="https://pandax.me/posts/coding-basics/" />
     
 
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        "datePublished": "2017-05-27T15:13:14+08:00",
-        "dateModified": "2021-08-31T22:18:15-05:00",
-        "url": "https://pandax.me/",
-        "description": "Blog of reuixiy in English.",
+        "@type": "WebPage",
+        "datePublished": "2021-06-24T16:44:06-05:00",
+        "dateModified": "2021-08-31T22:10:25-05:00",
+        "url": "https://pandax.me/posts/coding-basics/",
+        "name": "Coding Basics",
+        "description": "Difference between: i++ and ++i i++ --\u003e Assign --\u003e Increment ++i --\u003e Increment --\u003e Assign  What is dynamically allocation? Defnition: The mechanism by which storage/memory/cells can be allocated to variables during the run time is called Dynamic Memory Allocation\nStatic vs Dynamic Array: Basically static array has fixed size but dyanmic arr size can vary",
         "image": "https://pandax.me/icons/apple-touch-icon.png",
-        "author": {
-            "@type": "Person",
-            "description": "Viva La Vida",
-            "email": "reuixiy@gmail.com",
-            "image": "https://pandax.me/icons/apple-touch-icon.png",
-            "url": "https://io-oi.me/",
-            "name": "reuixiy"
-        },
         "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)",
-        "name": "PandaX"
+        "publisher": {
+            "@type": "Organization",
+            "name": "PandaX",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://pandax.me/icons/apple-touch-icon.png"
+            },
+            "url": "https://pandax.me/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "https://pandax.me/"
+        }
     }
 </script>
 
@@ -84,13 +88,12 @@
 
 
 
-<meta property="og:title" content="PandaX" />
-<meta property="og:description" content="Blog of reuixiy in English." />
-<meta property="og:url" content="https://pandax.me/" />
+<meta property="og:title" content="Coding Basics" />
+<meta property="og:description" content="Difference between: i&#43;&#43; and &#43;&#43;i i&#43;&#43; --&gt; Assign --&gt; Increment &#43;&#43;i --&gt; Increment --&gt; Assign  What is dynamically allocation? Defnition: The mechanism by which storage/memory/cells can be allocated to variables during the run time is called Dynamic Memory Allocation
+Static vs Dynamic Array: Basically static array has fixed size but dyanmic arr size can vary" />
+<meta property="og:url" content="https://pandax.me/posts/coding-basics/" />
 <meta property="og:site_name" content="PandaX" />
-<meta property="og:locale" content="en" />
-            <meta property="og:locale:alternate" content="zh" />
-        <meta property="og:image" content="https://pandax.me/icons/apple-touch-icon.png" />
+<meta property="og:locale" content="en" /><meta property="og:image" content="https://pandax.me/icons/apple-touch-icon.png" />
     <meta property="og:type" content="website" />
 
         <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
@@ -179,11 +182,17 @@
                                 <div id="lang-switcher">
             <span>🇺🇸</span>
             
-                <ul id="langs">
-                    
-                        <li><a rel="alternate" href="/zh/" hreflang="zh" lang="zh">🇨🇳</a></li>
-                    
-                </ul>
+                
+                    <ul id="langs">
+                        
+                            
+                                <li><a rel="alternate" href="/zh" hreflang="zh" lang="zh">🇨🇳</a></li>
+                            
+                        
+                            
+                        
+                    </ul>
+                
             
         </div>
                             </li>
@@ -212,51 +221,102 @@
 
             
             
-    
-    
-        <main class="home">
-    <div class="poetry">
-        
-            <p>.</p>
-        
-            <p>.</p>
-        
-            <p>.</p>
-        
-            <p>Let life be beautiful like summer flowers</p>
-        
-            <p>.</p>
-        
-            <p>.</p>
-        
-            <p>.</p>
-        
-    </div>
-    
-</main>
+    <main class="main single" id="main">
+    <div class="main-inner">
 
-    
-    
-    
-    
-    
-    
-    
+        
+
+        <article class="content post h-entry" data-small-caps="true" data-align="default" data-type="posts" data-toc-num="true">
+
+            <h1 class="post-title p-name">Coding Basics</h1>
 
             
 
             
-    <footer id="footer" class="footer">
-        <div class="footer-inner">
-            <div class="site-info">©&nbsp;2017–2021&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;reuixiy</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="custom-footer"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a></div>
+                
+            
+
+            
+
+            <div class="post-body e-content">
+                <h2 id="difference-between-i-and-i"><a href="#difference-between-i-and-i" class="anchor-link">#</a>Difference between: i++ and ++i</h2>
+<pre><code>i++ --&gt; Assign --&gt; Increment
+++i --&gt; Increment --&gt; Assign
+</code></pre>
+<h2 id="what-is-dynamically-allocation"><a href="#what-is-dynamically-allocation" class="anchor-link">#</a>What is dynamically allocation?</h2>
+<p style="text-indent:0"><span class="drop-cap">D</span>efnition: The mechanism by which storage/memory/cells can be allocated to variables during the <strong>run time</strong> is called Dynamic Memory Allocation</p>
+<p>Static vs Dynamic Array: Basically static array has fixed size but dyanmic arr size can vary</p>
+<p>Static arrays are allocated memory at compile time and the memory is allocated on the stack. Whereas, the dynamic arrays are allocated memory at the runtime and the memory is allocated from heap</p>
+<p>Examples: vector in C++, ArrayList in Java</p>
+<p>List<Integer> llist=new LinkedList<Integer>();
+List<Integer> stack=new Stack<Integer>();</p>
+<p>List&lt;List<Integer>&gt; res = new ArrayList();</p>
+<p><a href="https://www.geeksforgeeks.org/difference-between-static-and-dynamic-memory-allocation-in-c/" target="_blank" rel="noopener">Difference between static and dynamic memory allocation</a></p>
+<h2 id="arraylist"><a href="#arraylist" class="anchor-link">#</a>ArrayList</h2>
+<p>List<Integer> row = new ArrayList<Integer>();
+row.set(loc,value); // Insert value
+row.add(x); // Appned value</p>
+<h2 id="what-does-break-and-continue-do-in-a-loop"><a href="#what-does-break-and-continue-do-in-a-loop" class="anchor-link">#</a>What does break and continue do in a loop?</h2>
+<p>Break only exits out the <strong>inner</strong> loop it is placed in. It <strong>won't</strong> affect outer loop.</p>
+<p>Continue jumps out the current iteration and proceeds to the <strong>next iteration</strong>.</p>
+
+            </div>
 
             
 
 
+        </article>
+
+        
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+    
+        <div class="post-tags">
+            
+                
+                
+                
+                
+                    
+                    <a href="/tags/programming/" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>Programming</a>
+                
             
         </div>
-    </footer>
+    
 
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+    </div>
+</main>
+
+
+            
+
+            
 
         </div>
         <script>
