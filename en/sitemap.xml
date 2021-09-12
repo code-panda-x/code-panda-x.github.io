@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://pandax.me/categories/</loc>
-    <lastmod>2021-09-11T22:56:30-05:00</lastmod>
+    <lastmod>2021-09-11T23:12:52-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -19,7 +19,7 @@
     <lastmod>2021-09-11T22:51:32-05:00</lastmod>
   </url><url>
     <loc>https://pandax.me/</loc>
-    <lastmod>2021-09-11T22:56:30-05:00</lastmod>
+    <lastmod>2021-09-11T23:12:52-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -32,7 +32,7 @@
                 />
   </url><url>
     <loc>https://pandax.me/posts/</loc>
-    <lastmod>2021-09-11T22:56:30-05:00</lastmod>
+    <lastmod>2021-09-11T23:12:52-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -48,7 +48,7 @@
     <lastmod>2021-09-11T22:56:30-05:00</lastmod>
   </url><url>
     <loc>https://pandax.me/tags/</loc>
-    <lastmod>2021-09-11T22:56:30-05:00</lastmod>
+    <lastmod>2021-09-11T23:12:52-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -61,7 +61,7 @@
                 />
   </url><url>
     <loc>https://pandax.me/categories/tech/</loc>
-    <lastmod>2021-09-11T22:56:30-05:00</lastmod>
+    <lastmod>2021-09-11T23:12:52-05:00</lastmod>
   </url><url>
     <loc>https://pandax.me/tags/how/</loc>
     <lastmod>2021-09-11T22:55:46-05:00</lastmod>
@@ -111,8 +111,24 @@
     <loc>https://pandax.me/posts/coding-basics/</loc>
     <lastmod>2021-08-31T22:10:25-05:00</lastmod>
   </url><url>
+    <loc>https://pandax.me/tags/java/</loc>
+    <lastmod>2021-09-11T23:12:52-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pandax.me/zh/tags/java/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pandax.me/tags/java/"
+                />
+  </url><url>
+    <loc>https://pandax.me/posts/java/</loc>
+    <lastmod>2021-09-11T23:12:52-05:00</lastmod>
+  </url><url>
     <loc>https://pandax.me/tags/programming-languages/</loc>
-    <lastmod>2021-09-07T22:20:30-05:00</lastmod>
+    <lastmod>2021-09-11T23:12:52-05:00</lastmod>
   </url><url>
     <loc>https://pandax.me/tags/python/</loc>
     <lastmod>2021-09-07T22:20:30-05:00</lastmod>
