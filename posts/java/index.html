@@ -54,7 +54,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2021-06-24T16:33:52-05:00",
-        "dateModified": "2021-09-11T23:12:52-05:00",
+        "dateModified": "2021-09-14T21:36:29-05:00",
         "url": "https://pandax.me/posts/java/",
         "name": "Java Note",
         "description": "Some Java to know Matrix int m = nums.length; int n = nums[0].length; // Reshape matrix for (int x = 0; x \u003c m * n; ++x) { ans[x / c][x % c] = nums[x / n][x % n]; }  Collections Collections.",
@@ -274,11 +274,13 @@ peek 返回队列头部的元素 如果队列为空，则返回null
 put 添加一个元素 如果队列满，则阻塞
 take 移除并返回队列头部的元素 如果队列为空，则阻塞
 </code></pre><h2 id="heap"><a href="#heap" class="anchor-link">#</a>Heap</h2>
-<pre><code>PriorityQueue&lt;Integer&gt; heap = new PriorityQueue&lt;&gt;();
+<p style="text-indent:0"><span class="drop-cap">M</span>inHeap
+PriorityQueue<Integer> heap = new PriorityQueue&lt;&gt;();
 heap.offer(num);
 heap.poll();
-haap.peek();
-</code></pre>
+haap.peek();</p>
+<p>MaxHeap
+PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>(Collections.reverseOrder());</p>
 <h2 id="integer"><a href="#integer" class="anchor-link">#</a>Integer</h2>
 <pre><code>Integer.MAX_VALUE
 Integer.MIN_VALUE
@@ -299,7 +301,7 @@ ListNode cur = head;
 用cur操作
 return head;
 </code></pre>
-<p style="text-indent:0"><span class="drop-cap">D</span>ummy: // dummy --&gt; head --&gt; node1 --&gt; node2 --&gt; null</p>
+<p>Dummy: // dummy --&gt; head --&gt; node1 --&gt; node2 --&gt; null</p>
 <pre><code>ListNode dummy = new ListNode(0); dummy.next = head;      // 新List，头部为0，指向head
 //或者 ListNode dummy = new ListNode(0,head);    
 
@@ -330,6 +332,8 @@ int[] numbers = {10 20, 30, 40};
 int[] arr = new int[size];
 int[][] numMatrix = { {1, 2, 3, 4}, {5, 6, 7, 8}};
 </code></pre>
+<p>Convert to array
+arr = al.toArray();</p>
 <h3 id="arraylist-operations"><a href="#arraylist-operations" class="anchor-link">#</a>ArrayList Operations:</h3>
 <pre><code>arr.set();
 arr.add();
@@ -366,6 +370,7 @@ String[] words = s.trim().split(&quot; +&quot;);
 Collections.reverse(Arrays.asList(words));
 return String.join(&quot; &quot;, words);
 
+// data is chararray
 String text = String.valueOf(data);
 
 Check char in string:
@@ -432,12 +437,25 @@ for (int i = 0; i &lt; 9; i++) {
 <p>Common Use</p>
 <pre><code>int count = map.getOrDefault(num, 0);  // returns valuce at pos num, or return 0
 </code></pre>
-<h2 id="treeset-basically-a-sorted-hashset"><a href="#treeset-basically-a-sorted-hashset" class="anchor-link">#</a>TreeSet (basically a sorted hashset)</h2>
+<p>Return map as arraylist
+return new ArrayList&lt;&gt;(mymap.values());</p>
+<p>Map.Entry is a key and its value combined into one class. This allows you to iterate over Map.entrySet() instead of having to iterate over Map.keySet(), then getting the value for each key. A better way to write what you have is:</p>
+<pre><code>for (Map.Entry&lt;String, JButton&gt; entry : listbouton.entrySet())
+{
+  String key = entry.getKey();
+  JButton value = entry.getValue();
+
+  this.add(value);
+}
+</code></pre><h2 id="treeset-basically-a-sorted-hashset"><a href="#treeset-basically-a-sorted-hashset" class="anchor-link">#</a>TreeSet (basically a sorted hashset)</h2>
 <pre><code>TreeSet&lt;Long&gt; set = new TreeSet&lt;Long&gt;();
 set.ceiling(x);
 The ceiling() method of java.util.TreeSet&lt;E&gt; class is used to return the least element in this set greater than or equal to the given element, or null if there is no such element.
 set.remove(x);
-</code></pre><h2 id="final"><a href="#final" class="anchor-link">#</a>Final</h2>
+</code></pre><h2 id="treemap"><a href="#treemap" class="anchor-link">#</a>TreeMap</h2>
+<p>Internally, for every element, the keys are compared and sorted in the ascending order.
+tree_map = new TreeMap&lt;Integer, String&gt;();</p>
+<h2 id="final"><a href="#final" class="anchor-link">#</a>Final</h2>
 <pre><code>final int myNum = 10; // Means myNum cannot be changed
 </code></pre>
 <h2 id="-"><a href="#-" class="anchor-link">#</a>(? :)</h2>
