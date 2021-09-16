@@ -54,7 +54,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2021-06-24T16:33:52-05:00",
-        "dateModified": "2021-09-15T19:17:55-05:00",
+        "dateModified": "2021-09-16T10:42:03-05:00",
         "url": "https://pandax.me/posts/java/",
         "name": "Java CheatSheet",
         "description": "Some Java to know Matrix int m = nums.length; int n = nums[0].length; // Reshape matrix for (int x = 0; x \u003c m * n; ++x) { ans[x / c][x % c] = nums[x / n][x % n]; }  Collections Collections.",
@@ -306,10 +306,11 @@ return head;
 //或者 ListNode dummy = new ListNode(0,head);    
 
 ListNode tmp = dummy;   // 复制了一份，为了操作，return的时候return dummy.next，因为dummy仍然在头部
-//Use tmp to iterate      // 进行操作
-return dummy.next;      // dummy的head是0，.next则是答案
 
-也可以用head直接操作
+//Use tmp to iterate      // 进行操作
+
+return dummy.next;      // dummy的value是0，.next则是答案
+
 
 ListNode()
       Creates a completely blank ListNode
